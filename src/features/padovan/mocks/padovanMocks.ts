@@ -67,7 +67,7 @@ export const padovanMocks: Padovan[] = [
     img: ghost,
     name: "Ghost of Tsushima",
     details: "June 26, 2020",
-    price: 1000,
+    price: 4900,
     gramms: [
       {
         id: 1,
@@ -97,8 +97,8 @@ export const padovanMocks: Padovan[] = [
   {
     id: 6,
     img: padovan,
-    name: "PADOVAN OVOMIX GOLD ROSSO",
-    details: "Корм для птиц",
+    name: "Witcher 3",
+    details: "May 19th, 2015",
     price: 1000,
     gramms: [
       {
@@ -112,10 +112,10 @@ export const padovanMocks: Padovan[] = [
   },
   {
     id: 7,
-    img: padovan,
-    name: "PADOVAN OVOMIX GOLD ROSSO",
-    details: "Корм для птиц",
-    price: 1000,
+    img: ghost,
+    name: "Ghost of Tsushima",
+    details: "June 26, 2020",
+    price: 4900,
     gramms: [
       {
         id: 1,
@@ -128,10 +128,10 @@ export const padovanMocks: Padovan[] = [
   },
   {
     id: 8,
-    img: padovan,
-    name: "PADOVAN OVOMIX GOLD ROSSO",
-    details: "Корм для птиц",
-    price: 1000,
+    img: last,
+    name: "the last of us",
+    details: "june 3, 2013",
+    price: 4200,
     gramms: [
       {
         id: 1,
@@ -144,10 +144,10 @@ export const padovanMocks: Padovan[] = [
   },
   {
     id: 9,
-    img: padovan,
-    name: "PADOVAN OVOMIX GOLD ROSSO",
-    details: "Корм для птиц",
-    price: 1000,
+    img: rdr,
+    name: "Read Dead Redemption 2",
+    details: "October 26, 2018",
+    price: 4900,
     gramms: [
       {
         id: 1,
@@ -160,10 +160,10 @@ export const padovanMocks: Padovan[] = [
   },
   {
     id: 10,
-    img: padovan,
-    name: "PADOVAN OVOMIX GOLD ROSSO",
-    details: "Корм для птиц",
-    price: 1000,
+    img: ghost,
+    name: "Ghost of Tsushima",
+    details: "June 26, 2020",
+    price: 4900,
     gramms: [
       {
         id: 1,
@@ -176,10 +176,10 @@ export const padovanMocks: Padovan[] = [
   },
   {
     id: 11,
-    img: padovan,
-    name: "PADOVAN OVOMIX GOLD ROSSO",
-    details: "Корм для птиц",
-    price: 1000,
+    img: last,
+    name: "the last of us",
+    details: "june 3, 2013",
+    price: 4200,
     gramms: [
       {
         id: 1,
@@ -192,10 +192,10 @@ export const padovanMocks: Padovan[] = [
   },
   {
     id: 12,
-    img: padovan,
-    name: "PADOVAN OVOMIX GOLD ROSSO",
-    details: "Корм для птиц",
-    price: 1000,
+    img: csGO,
+    name: "counter strike",
+    details: "August 21st, 2012",
+    price: 1490,
     gramms: [
       {
         id: 1,
@@ -208,10 +208,10 @@ export const padovanMocks: Padovan[] = [
   },
   {
     id: 13,
-    img: padovan,
-    name: "PADOVAN OVOMIX GOLD ROSSO",
-    details: "Корм для птиц",
-    price: 1000,
+    img: ghost,
+    name: "Ghost of Tsushima",
+    details: "June 26, 2020",
+    price: 4900,
     gramms: [
       {
         id: 1,

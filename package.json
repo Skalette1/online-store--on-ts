@@ -10,7 +10,9 @@
     "vercel-build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
