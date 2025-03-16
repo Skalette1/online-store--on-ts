@@ -1,6 +1,5 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import path from "path";
 
 export default defineConfig({
   plugins: [react()],
@@ -8,13 +7,13 @@ export default defineConfig({
   build: {
     outDir: "dist",
     rollupOptions: {
-      external: ['react-redux', 'react', 'react-dom'], // Добавьте все внешние зависимости, если нужно
+      external: ['react-redux', 'react', 'react-dom', 'antd'], // Добавьте 'antd' сюда
     },
   },
   server: {
-    port: 3000, // Локальный сервер на 3000 порту
+    port: 3000,
   },
   define: {
-    "process.env": {}, // Убирает ошибки с process.env в Vercel
+    "process.env": {},
   },
 });

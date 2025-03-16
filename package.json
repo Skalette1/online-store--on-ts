@@ -12,11 +12,11 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
     "@types/react-router-dom": "^5.3.3",
+    "antd": "^5.24.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.3.0",
