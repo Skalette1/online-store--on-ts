@@ -23,14 +23,14 @@ export const Navbar = () => {
         <button>Птицы</button>
         <button>Пожертвования</button>
       </div>
-      <img
-        src={menu}
-        alt="burger-button"
-        className="burger-button"
-        onClick={() => setIsOpen(!isOpen)}
-        height={80}
-        width={80}
-      />
+      <div
+  className={`burger-button ${isOpen ? "active" : ""}`}
+  onClick={() => setIsOpen(!isOpen)}
+>
+  <div className="burger-line one"></div>
+  <div className="burger-line two"></div>
+  <div className="burger-line three"></div>
+</div>
     </div>
   );
 };

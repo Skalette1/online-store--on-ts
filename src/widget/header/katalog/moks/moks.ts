@@ -13,18 +13,18 @@ export const katalog: Katalog[] = [
     id: 1,
     img: feedingTrough,
     name: "Witcher",
-    details: "2015",
+    details: "Game of the Year🏆",
   },
   {
     id: 2,
     img: mix,
     name: "Rdr 2",
-    details: "2018",
+    details: "Game of the Year🏆",
   },
   {
     id: 3,
     img: eat,
     name: "Ghost of Tsushima",
-    details: "2020",
+    details: "Game of the Year🏆",
   },
 ];

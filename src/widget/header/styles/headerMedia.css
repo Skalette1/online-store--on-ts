@@ -62,6 +62,11 @@
   .navbar img {
     display: block !important;
   }
+
+  .burger-button {
+    display: block !important;
+    background-color: #fff;
+  }
 }
 
 @media (max-width: 400px) {
@@ -71,5 +76,43 @@
 
   .burger-button {
     transform: scale(0.7);
+  }
+}
+@media (max-width: 840px) {
+  .navbar,
+  .actions {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 240px;
+    height: 100%;
+    background-color: #000;
+    padding: 2rem 0.5rem;
+    border: 2px solid red;
+    border-radius: 0 1rem;
+    box-shadow: 0 1px 1px 2px #e31111;
+    transition: 0.8s all ease-in-out;
+  }
+
+  .navbar.active {
+    left: 0;
+    z-index: 1000;
+    transform: translateX(0);
+  }
+
+  .burger-button {
+    display: block !important;
+    background-color: transparent;
+    position: fixed;
+    top: 1.2rem;
+    right: 1rem;
+    z-index: 1002;
+  }
+
+  .burger-button .burger-line {
+    background-color: #d81919;
   }
 }

@@ -10,7 +10,7 @@ export const Carousel = () => {
   return (
     <div>
       <div className="carousel">
-        <h2>Виды птиц, для которых подойдет данный товар</h2>
+        <h2>Игры со схожей сюжетной линией</h2>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}

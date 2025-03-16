@@ -29,14 +29,14 @@ export const rioMocks: Rio[] = [
     img: miles,
     name: "Spider man: Miles Morales",
     details: "September 15, 2016",
-    price: 4000,
+    price: 4900,
   },
   {
     id: 4,
     img: assasins,
     name: "Assasins",
     details: "june 06, 2009",
-    price: 4000,
+    price: 1400,
   },
   {
     id: 5,

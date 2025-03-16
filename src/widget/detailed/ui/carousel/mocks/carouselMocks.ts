@@ -1,7 +1,7 @@
-import pigeon from "../../../../../../public/pigeon.png";
-import vorobey from "../../../../../../public/vorobey.png";
-import lastochka from "../../../../../../public/lastochka.png";
-import skvorec from "../../../../../../public/skvorec.png";
+import pigeon from "../../../../../../public/gta.jpg";
+import vorobey from "../../../../../../public/sanandreas.jpg";
+import lastochka from "../../../../../../public/liberty_enhanced.jpg";
+import skvorec from "../../../../../../public/gta4.webp";
 
 interface Carousel {
   readonly id: number;
@@ -12,21 +12,21 @@ export const carousel: Carousel[] = [
   {
     id: 1,
     img: pigeon,
-    name: "Голубь",
+    name: "GTA 6",
   },
   {
     id: 2,
     img: vorobey,
-    name: "Воробей",
+    name: "GTA SA",
   },
   {
     id: 3,
     img: lastochka,
-    name: "Ласточка",
+    name: "LIBERTY",
   },
   {
     id: 4,
     img: skvorec,
-    name: "Скворец",
+    name: "GTA 4",
   },
 ];

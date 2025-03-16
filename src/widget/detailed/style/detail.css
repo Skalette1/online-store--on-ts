@@ -15,7 +15,7 @@
 }
 
 h1 {
-  font-size: 2.1rem;
+  font-size: 2.4rem;
 }
 
 .detail-card span {
@@ -35,6 +35,15 @@ h1 {
   z-index: 1;
 }
 
+.carousel h2 {
+  color: rgb(185, 5, 5);
+}
+
+.carousel img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
 .swiper {
   position: static;
 }
@@ -56,7 +65,7 @@ h1 {
 .swiper-button-next,
 .swiper-button-prev {
   z-index: 1000;
-  color: #36af50 !important;
+  color: #db1b11 !important;
   width: 30px !important;
   height: 30px !important;
   display: flex;
