@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     outDir: "dist",
     rollupOptions: {
-      external: [],
+      external: ['react-redux', 'react', 'react-dom'], // Добавьте все внешние зависимости, если нужно
     },
   },
   server: {
