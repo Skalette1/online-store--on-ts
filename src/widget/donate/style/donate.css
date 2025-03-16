@@ -1,0 +1,141 @@
+.donate {
+  color: #000;
+  background-color: rgb(102, 7, 7);
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem;
+  margin-bottom: 0;
+  transform: translateY(8%);
+  z-index: 1 !important;
+}
+
+.donate-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.donate-left h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 1.5rem;
+}
+
+.donate-left label {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.donate-left input[type="checkbox"] {
+  transform: scale(1.3);
+  accent-color: red;
+  margin-right: 0.5rem;
+}
+
+.donate-mid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.donate-mid input[type="text"] {
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 0.9rem 1.15rem;
+  border-radius: 0.8rem;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.donate-mid input[type="text"]::placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.donate-mid button {
+  color: #000;
+  background-color: #fff;
+  padding: 0.9rem 2.3rem;
+  border-radius: 0.8rem;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.donate-mid button:hover {
+  background-color: #f0f0f0;
+}
+
+.right {
+  position: relative;
+}
+
+.right img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  transform: translateY(9.3%);
+}
+
+.phone-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem;
+  border-radius: 2rem 2rem 0 0;
+  text-align: center;
+  width: 73%;
+  max-width: 300px;
+  height: 77%;
+}
+
+.gift-selection h4 {
+  color: #4f4f4f;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.gift-selection label {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: #4f4f4f;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.gift-selection input[type="radio"] {
+  margin-right: 0.5rem;
+  accent-color: #3ecf5e;
+}
+
+.gift-selection p {
+  color: #4f4f4f;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+#backLink {
+  color: rgb(127, 8, 8);
+  font-weight: 600;
+}
+
+#arrow {
+  width: 30px;
+  transform: rotate(180deg);
+}
+
+.loadMore-cont {
+  display: flex;
+  align-items: center;
+}
+#loadMore {
+  width: 30px;
+}
