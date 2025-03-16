@@ -11,11 +11,6 @@ export default defineConfig({
       external: [],
     },
   },
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
   server: {
     port: 3000, // Локальный сервер на 3000 порту
   },
