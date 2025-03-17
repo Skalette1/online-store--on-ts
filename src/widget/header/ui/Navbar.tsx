@@ -15,12 +15,12 @@ export const Navbar = () => {
       <div className={`navbar ${isOpen ? "active" : ""}`}>
         <select name="" id="" onChange={handleChange}>
           <option value="/">Каталог</option>
-          <option value="/padovan">Готовые миксы</option>
-          <option value="/rio">Отдельные виды кормов</option>
-          <option value="/izba">Готовые комплекты</option>
+          <option value="/padovan">Игры года</option>
+          <option value="/rio">Скидки от 50%</option>
+          <option value="/izba">Plastation +</option>
         </select>
         <button>О проекте</button>
-        <button>Птицы</button>
+        <button>Игры</button>
         <button>Пожертвования</button>
       </div>
       <div
