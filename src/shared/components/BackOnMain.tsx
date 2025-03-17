@@ -1,5 +1,5 @@
 import React from "react";
-import arrow from "../../public/arrow (2).png";
+import arrow from "../../../public/arrow (2).png";
 import "../../widget/donate/style/donate.css";
 import { NavLink } from "react-router-dom";
 export const BackOnMAin = () => {

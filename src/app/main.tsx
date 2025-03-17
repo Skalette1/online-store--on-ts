@@ -6,8 +6,6 @@ import { store } from "./store/store";
 
 createRoot(document.getElementById("root")!).render(
   <Provider store={store}>
-    <HashRouter>
     <RouterProvider router={router} />
-    </HashRouter>
   </Provider>,
 );

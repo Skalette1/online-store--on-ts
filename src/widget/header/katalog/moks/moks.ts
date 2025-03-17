@@ -1,6 +1,6 @@
-import feedingTrough from "../../../../public/witcher3cover.jpeg";
-import mix from "../../../../public/rdr2.jpg";
-import eat from "../../../../public/ghost.webp";
+import feedingTrough from "../../../../../public/witcher3cover.jpeg";
+import mix from "../../../../../public/rdr2.jpg";
+import eat from "../../../../../public/ghost.webp";
 
 interface Katalog {
   readonly id: number;

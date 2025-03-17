@@ -1,4 +1,4 @@
-import musashi from "../../../../../public/musashi.jpg";
+import musashi from "../../../../../../public/musashi.jpg";
 
 interface User {
   readonly id: number;

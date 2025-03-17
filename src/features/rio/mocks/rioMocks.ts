@@ -1,7 +1,7 @@
-import rio from "../../../public/rdrCard.webp";
-import spiderMan from "../../../public/spider.jpg";
-import miles from "../../../public/miles.webp";
-import assasins from "../../../public/assasins.webp";
+import rio from "../../../../public/rdrCard.webp";
+import spiderMan from "../../../../public/spider.jpg";
+import miles from "../../../../public/miles.webp";
+import assasins from "../../../../public/assasins.webp";
 interface Rio {
   readonly id: number;
   img: string;

@@ -1,4 +1,4 @@
-import phone from "../../public/Object.png";
+import phone from "../../../public/Object.png";
 import "./style/donate.css";
 
 export const Donate = () => {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import user from "../../../public/85407_red_user_icon.png"
+import user from "../../../../public/85407_red_user_icon.png"
 import { Popup } from "antd-mobile";
 import { Link } from "react-router-dom";
 

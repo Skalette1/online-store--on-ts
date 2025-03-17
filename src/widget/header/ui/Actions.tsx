@@ -1,8 +1,8 @@
 import React from "react";
-import phone from "../../../public/call.png";
+import phone from "../../../../public/call.png";
 import { Link } from "react-router-dom";
 import { Profile } from "../model/Profile";
-import cart from "../../../public/shopping-cart.png";
+import cart from "../../../../public/shopping-cart.png";
 import "../styles/headerMedia.css";
 export const Actions = () => {
   return (

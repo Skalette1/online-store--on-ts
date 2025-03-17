@@ -1,6 +1,6 @@
 import React from "react";
 import { user } from "../mocks/userMocks";
-import edit from "../../../../../public/Edit.png";
+import edit from "../../../../../../public/Edit.png";
 export const User = () => {
   return (
     <div>

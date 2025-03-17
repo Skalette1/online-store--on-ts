@@ -1,5 +1,5 @@
 import React from "react";
-import cart from "../../../public/cart.svg";
+import cart from "../../../../public/cart.svg";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../core/cartReducer";
 
