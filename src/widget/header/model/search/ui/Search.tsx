@@ -1,15 +1,16 @@
 import { useDispatch } from "react-redux";
 import { setSearch } from "../model/searchReducer";
 import "../../../styles/header.css";
-import { SearchBar } from "antd-mobile";
+
 export const Search = () => {
   const dispatch = useDispatch();
-  const handleSearch = (value: string) => {
+  const handleSearch = (event: any) => {
+    const value = event.target.value
     dispatch(setSearch(value));
   };
   return (
     <div>
-      <SearchBar onChange={handleSearch} className="search" />
+      <input type="search" onChange={handleSearch} className="search" />
     </div>
   );
 };
