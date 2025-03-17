@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/", // Это важно для корректной работы с путями
+  base: "/online-store--on-ts/", // Это важно для корректной работы с путями
   build: {
     outDir: "dist",
     rollupOptions: {
