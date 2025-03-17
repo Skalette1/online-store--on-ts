@@ -14,9 +14,9 @@ export const DetaildedPage = () => {
         <Carousel />
         <Carousel />
       </div>
-      <h3 style={{color: 'red'}}>С этим товаром смотрят:</h3>
+      <h3 style={{ color: "red" }}>С этим товаром смотрят:</h3>
       <Rio />
-      <h3 style={{color: 'red'}}>С этим товаром покупают</h3>
+      <h3 style={{ color: "red" }}>С этим товаром покупают</h3>
       <Padovan />
     </div>
   );

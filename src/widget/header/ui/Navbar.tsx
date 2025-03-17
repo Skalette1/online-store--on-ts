@@ -24,13 +24,13 @@ export const Navbar = () => {
         <button>Пожертвования</button>
       </div>
       <div
-  className={`burger-button ${isOpen ? "active" : ""}`}
-  onClick={() => setIsOpen(!isOpen)}
->
-  <div className="burger-line one"></div>
-  <div className="burger-line two"></div>
-  <div className="burger-line three"></div>
-</div>
+        className={`burger-button ${isOpen ? "active" : ""}`}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <div className="burger-line one"></div>
+        <div className="burger-line two"></div>
+        <div className="burger-line three"></div>
+      </div>
     </div>
   );
 };

@@ -115,4 +115,8 @@
   .burger-button .burger-line {
     background-color: #d81919;
   }
+
+  .padovan {
+    display: flex;
+  }
 }

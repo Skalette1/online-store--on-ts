@@ -5,7 +5,7 @@ import "../../../styles/header.css";
 export const Search = () => {
   const dispatch = useDispatch();
   const handleSearch = (event: any) => {
-    const value = event.target.value
+    const value = event.target.value;
     dispatch(setSearch(value));
   };
   return (

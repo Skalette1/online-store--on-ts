@@ -110,11 +110,11 @@ select {
   padding: 0.5rem;
 }
 
-#search {
+.search {
   color: #828282;
   background-color: #f2f2f2;
-  border: 1px solid #bdbdbd;
-  border-radius: 0.8rem;
+  border: none;
+  border-radius: 0.3rem;
   padding: 0.8rem 2.5rem;
 }
 
@@ -222,7 +222,7 @@ select {
 
 .search .adm-search-bar-input-box {
   background-color: hsl(0, 67%, 17%);
-  border-radius: 2REM;
+  border-radius: 2rem;
 }
 
 .search .adm-search-bar-input {

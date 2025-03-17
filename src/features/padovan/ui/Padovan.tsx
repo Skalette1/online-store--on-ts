@@ -39,7 +39,7 @@ export const Padovan = () => {
           {loading ? <Spin size="large" /> : <LoadMore />}
         </button>
       )}
-      <div className={`card-container  ${showAllCard? "" : "padovan"}`}>
+      <div className={`card-container  ${showAllCard ? "" : "padovan"}`}>
         {(showAllCard
           ? padovanMocks
           : filteredProduct.slice(0, visibleCount)

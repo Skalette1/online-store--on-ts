@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     outDir: "dist",
     rollupOptions: {
-      external: ['react', 'react-dom', 'react-redux'],
+      external: ["react", "react-dom", "react-redux"],
     },
   },
   server: {
@@ -17,4 +17,3 @@ export default defineConfig({
     "process.env": {},
   },
 });
-

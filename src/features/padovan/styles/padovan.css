@@ -1,7 +1,7 @@
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-  gap: 1rem;
+  gap: 1.1rem;
   margin: 0 auto;
   /* max-width: 1200px; */
 }
@@ -32,7 +32,9 @@
   padding: 1.5rem;
   border-radius: 1.3rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   max-width: 370px;
   width: 100%;
 }
@@ -118,6 +120,7 @@ body {
   font-weight: 400;
   color: #fff;
   background-color: #131313;
+  overflow-x: hidden;
 }
 
 .card:hover {
