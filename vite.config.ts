@@ -3,17 +3,18 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/",
+  base: "/", // Это важно для корректной работы с путями
   build: {
     outDir: "dist",
     rollupOptions: {
-      external: ['react', 'react-dom', 'react-redux'], // добавьте react-redux в список внешних зависимостей
+      external: ['react', 'react-dom', 'react-redux'],
     },
   },
   server: {
     port: 3000,
   },
   define: {
-    "process.env": {}, // Убирает ошибки с process.env
+    "process.env": {},
   },
 });
+
