@@ -1,5 +1,5 @@
 import React from "react";
-import { speciesMoks } from "../../../../../features/birdSpecies/moks/speciesMoks";
+import { speciesMoks } from "../../../../../features/birdSpecies/mocks/speciesMoks";
 import "../../../style/detail.css";
 
 export const Card = () => {

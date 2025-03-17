@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { speciesMoks } from "../moks/speciesMoks";
+import { speciesMoks } from "../mocks/speciesMoks";
 import { RootState } from "../../../app/store/store";
 import { Spin } from "antd";
 import { LoadMore } from "../../../shared/components/LoadMore";
