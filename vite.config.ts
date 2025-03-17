@@ -7,13 +7,13 @@ export default defineConfig({
   build: {
     outDir: "dist",
     rollupOptions: {
-      external: ['react-redux', 'react', 'react-dom'], 
+      external: ['react', 'react-dom'], // Убедитесь, что React и ReactDOM исключены как внешние зависимости
     },
   },
   server: {
-    port: 3000,
+    port: 3000, // Локальный сервер на 3000 порту
   },
   define: {
-    "process.env": {},
+    "process.env": {}, // Убирает ошибки с process.env
   },
 });
