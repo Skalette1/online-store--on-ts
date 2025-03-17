@@ -3,17 +3,11 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/online-store--on-ts/", // это важно для корректной работы с путями
+  base: "/online-store--on-ts/", // Важно для GitHub Pages
   build: {
-    outDir: "dist", // Папка для финальной сборки
-    rollupOptions: {
-      external: ["react", "react-dom", "react-redux"],
-    },
+    outDir: "dist", // Папка для билда
   },
   server: {
     port: 3000,
-  },
-  define: {
-    "process.env": {},
   },
 });
