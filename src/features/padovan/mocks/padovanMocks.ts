@@ -3,7 +3,7 @@ import rdr from "../../../../public/rdr2.jpg";
 import csGO from "../../../../public/csgo.png";
 import ghost from "../../../../public/ghost.webp";
 import last from "../../../../public/lastOf.jpg";
-
+import skyrim from '../../../../public/skyrim.webp'
 interface Padovan {
   readonly id: number;
   img: string;
@@ -16,10 +16,10 @@ interface Padovan {
 export const padovanMocks: Padovan[] = [
   {
     id: 1,
-    img: padovan,
-    name: "Witcher 3",
-    details: "May 19th, 2015",
-    price: 2490,
+    img: skyrim,
+    name: "Skyrim",
+    details: "May 19th, 2010",
+    price: 3100,
     gramms: [
       {
         id: 1,
@@ -33,7 +33,7 @@ export const padovanMocks: Padovan[] = [
   {
     id: 2,
     img: rdr,
-    name: "Read Dead Redemption 2",
+    name: "Rrd 2",
     details: "October 26, 2018",
     price: 4900,
     gramms: [
@@ -145,7 +145,7 @@ export const padovanMocks: Padovan[] = [
   {
     id: 9,
     img: rdr,
-    name: "Read Dead Redemption 2",
+    name: "Rdr 2",
     details: "October 26, 2018",
     price: 4900,
     gramms: [
