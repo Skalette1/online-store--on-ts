@@ -1,5 +1,5 @@
-import social from "../../../../public/social.png";
-import phone from "../../../../public/телефон.png";
+import social from "../../../public/social.png";
+import phone from "../../../public/телефон.png";
 import "../style/footer.css";
 
 export const Footer = () => {

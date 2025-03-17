@@ -1,6 +1,5 @@
-import phone from "../../../public/Object.png";
+import phone from "../../public/Object.png";
 import "./style/donate.css";
-import { GiftSelection } from "../donate/ui/GiftSelection"; // Импортируем компонент
 
 export const Donate = () => {
   return (
@@ -24,9 +23,6 @@ export const Donate = () => {
       </div>
       <div className="right">
         <img src={phone} alt="phone" />
-        {/* <div className="phone-info">
-          <GiftSelection /> 
-        </div> */}
       </div>
     </div>
   );

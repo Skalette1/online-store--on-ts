@@ -1,5 +1,4 @@
 import { Actions } from "./ui/Actions";
-import logo from "../../../public/snapedit_1742135635683.jpeg";
 import "./styles/header.css";
 import "./styles/headerMedia.css";
 import { Navbar } from "./ui/Navbar";

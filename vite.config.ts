@@ -3,9 +3,9 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/online-store--on-ts/", // Это важно для корректной работы с путями
+  base: "/online-store--on-ts/", // это важно для корректной работы с путями
   build: {
-    outDir: "dist",
+    outDir: "dist", // Папка для финальной сборки
     rollupOptions: {
       external: ["react", "react-dom", "react-redux"],
     },

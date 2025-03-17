@@ -1,9 +1,9 @@
-import padovan from "../../../../public/witcherCard.jpg";
-import rdr from "../../../../public/rdr2.jpg";
-import csGO from "../../../../public/csgo.png";
-import ghost from "../../../../public/ghost.webp";
-import last from "../../../../public/lastOf.jpg";
-import skyrim from "../../../../public/skyrim.webp";
+import padovan from "../../../public/witcherCard.jpg";
+import rdr from "../../../public/rdr2.jpg";
+import csGO from "../../../public/csgo.png";
+import ghost from "../../../public/ghost.webp";
+import last from "../../../public/lastOf.jpg";
+import skyrim from "../../../public/skyrim.webp";
 interface Padovan {
   readonly id: number;
   img: string;

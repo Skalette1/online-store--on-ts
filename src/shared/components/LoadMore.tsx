@@ -1,5 +1,5 @@
-import React from "react";
-import arrow from "../../../public/arrow (1).png";
+
+import arrow from "../../public/arrow (1).png";
 export const LoadMore = () => {
   return (
     <div className="loadMore-cont">

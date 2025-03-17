@@ -1,7 +1,7 @@
-import bird from "../../../../public/Vice-city-cover_enhanced.jpg";
-import san from "../../../../public/sanandreas.jpg";
-import four from "../../../../public/liberty_enhanced.jpg";
-import five from "../../../../public/gta.jpg";
+import bird from "../../../public/Vice-city-cover_enhanced.jpg";
+import san from "../../../public/sanandreas.jpg";
+import four from "../../../public/liberty_enhanced.jpg";
+import five from "../../../public/gta.jpg";
 interface Species {
   readonly id: number;
   img: string;

@@ -1,4 +1,4 @@
-import React from "react";
+
 import "../../features/padovan/styles/padovan.css";
 import { Link } from "react-router-dom";
 

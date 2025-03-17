@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import menu from "/menu (1).png";
 import { useNavigate } from "react-router-dom";
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);

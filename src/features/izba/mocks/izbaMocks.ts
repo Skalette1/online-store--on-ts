@@ -1,6 +1,6 @@
-import izba from "../../../../public/ghost.webp";
-import assasins from "../../../../public/AC4_Black_Flag_soundtrack_enhanced.jpg";
-import skyrim from "../../../../public/skyrim.webp";
+import izba from "../../../public/ghost.webp";
+import assasins from "../../../public/AC4_Black_Flag_soundtrack_enhanced.jpg";
+import skyrim from "../../../public/skyrim.webp";
 interface Izba {
   readonly id: number;
   img: string;
