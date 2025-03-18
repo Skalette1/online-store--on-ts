@@ -3,23 +3,6 @@
   grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   gap: 1.1rem;
   margin: 0 auto;
-  /* max-width: 1200px; */
-}
-
-.padovan {
-  display: flex;
-  flex-wrap: nowrap;
-  /* overflow: hidden; */
-  animation: carousel 22s ease-in-out infinite;
-}
-
-@keyframes carousel {
-  from {
-    transform: translateX(00%);
-  }
-  to {
-    transform: translateX(-50%);
-  }
 }
 
 .card {

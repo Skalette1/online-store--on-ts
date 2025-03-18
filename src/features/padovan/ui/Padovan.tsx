@@ -39,7 +39,7 @@ export const Padovan = () => {
           {loading ? <Spin size="large" /> : <LoadMore />}
         </button>
       )}
-      <div className={`card-container  ${showAllCard ? "" : ""}`}>
+      <div className="card-container">
         {(showAllCard
           ? padovanMocks
           : filteredProduct.slice(0, visibleCount)
@@ -57,14 +57,6 @@ export const Padovan = () => {
                 <span style={{ marginLeft: ".3rem" }}>руб</span>
               </li>
             </div>
-            {/* {item.gramms.map((gramm) => (
-              <ul key={gramm.id} className="gramms">
-                <li>{gramm.gramm1}</li>
-                <li>{gramm.gramm2}</li>
-                <li>{gramm.gramm3}</li>
-                <li>{gramm.gramm4}</li>
-              </ul>
-            ))} */}
             <div className="card-footer">
               <DetailButton />
               <CartIcon item={item} />
