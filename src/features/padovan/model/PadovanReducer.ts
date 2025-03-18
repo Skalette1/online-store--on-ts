@@ -6,7 +6,7 @@ interface State {
 }
 
 const initialState: State = {
-  visibleCount: 7,
+  visibleCount: 4,
   loading: false,
 };
 

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import cart from '../../../../public/shopping-cart.png'
+import { Profile } from "../model/Profile";
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const navigate = useNavigate();
@@ -21,6 +23,20 @@ export const Navbar = () => {
         <button>О проекте</button>
         <button>Игры</button>
         <button>Пожертвования</button>
+        {isOpen && (
+          <>
+          <Link to="/cart">
+          <img
+            src={cart}
+            alt="cart"
+            style={{ height: "2.4rem", width: "2.3rem",
+              transform: 'translateX(4px)'
+            }}
+          />
+        </Link>
+        <Profile />
+          </>
+        )}
       </div>
       <div
         className={`burger-button ${isOpen ? "active" : ""}`}

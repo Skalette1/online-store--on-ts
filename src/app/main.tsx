@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
-import { HashRouter, RouterProvider } from "react-router-dom";
+import {  RouterProvider } from "react-router-dom";
 import { router } from "./router/Router";
 import { store } from "./store/store";
 

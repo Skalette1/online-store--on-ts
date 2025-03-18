@@ -1,4 +1,4 @@
-import padovan from "../../../../public/witcherCard.jpg";
+import padovan from "../../../../public/witcher3cover.jpeg";
 import rdr from "../../../../public/rdr2.jpg";
 import csGO from "../../../../public/csgo.png";
 import ghost from "../../../../public/ghost.webp";

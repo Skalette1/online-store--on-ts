@@ -9,6 +9,7 @@
 .padovan {
   display: flex;
   flex-wrap: nowrap;
+  /* overflow: hidden; */
   animation: carousel 22s ease-in-out infinite;
 }
 
