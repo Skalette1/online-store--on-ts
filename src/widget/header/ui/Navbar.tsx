@@ -5,7 +5,7 @@ import { Profile } from "../model/Profile";
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const navigate = useNavigate();
-  const handleChange = (event: any) => {
+  const handleChange = (event: string) => {
     const selected = event.target.value;
     if (selected) {
       navigate(selected);
