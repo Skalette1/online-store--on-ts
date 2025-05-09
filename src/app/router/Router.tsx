@@ -11,9 +11,9 @@ import { OrderPage } from "../../processes/order/ui/orderList/OrderPage";
 import { CartPage } from "../../pages/model/cart/CartPage";
 import { BuyFirst } from "../../processes/order/ui/pay and delivery/ui/BuyFirst";
 import { BuySecond } from "../../processes/order/ui/pay and delivery/ui/BuySecond";
-import { BuyThird } from "../../processes/order/ui/pay and delivery/ui/BuyThird";
 import { Condition } from "../../processes/order/ui/conditions/Condition";
 import { Success } from "../../processes/order/ui/success/Success";
+import { BuyThird } from "../../processes/order/ui/orderList/BuyThird";
 
 export const router = createHashRouter([
   {

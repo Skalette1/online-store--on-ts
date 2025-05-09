@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { NextBuy } from "../../../../../shared/components/NextBuyButton";
-import { Header } from "../../../../../widget/header/Header";
+import { NextBuy } from "../../../../shared/components/NextBuyButton";
+import { Header } from "../../../../widget/header/Header";
 
 export const BuyThird = () => {
   return (

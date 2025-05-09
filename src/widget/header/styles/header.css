@@ -159,13 +159,13 @@ select {
   transform: rotate(45deg) translate(10px, 7px);
 }
 
-.burger-button.active .burger-line:nth-child(2) {
-  opacity: 0;
-}
-
 .burger-button.active .burger-line:nth-child(3) {
   transition: all 0.4s ease-in-out;
   transform: rotate(-45deg) translate(6px, -5px);
+}
+
+.burger-button.active .burger-line:nth-child(2) {
+  opacity: 0;
 }
 
 .burger-button:hover .burger-line {
